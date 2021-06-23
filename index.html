@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin :3px 1px 3px 1px;     /*top right bottpm left*/
+            width : 70%;
+        }
+       
+        /* body{
+            width:50%;
+            background-color: pink;
+        
+        } */    
+
+        .parent{
+            position: relative;
+            left: 30%;
+            right:30%;
+            /* right:50%; */
+            /* background-color:pink; */
+            width: 900px;
+            /* height: 1420px; */
+            /* float:center;
+            margin:  */
+        }
+        .name{                          /* for BRIAN DUDEY below the photo */
+            background-color:orange; 
+            text-align:center; 
+            margin-top:5px; 
+            width: 400px;
+            height:50px; 
+            position:absolute; 
+            top:180px; 
+            left:270px;
+            font-size:xx-large;
+            font-weight:700;
+            padding-top:12px;
+            border-radius: 4px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .verti-line{                        /* vertical line through the center of the resume*/
+            border-left: 2px solid lightgray;
+            height:950px;
+            position:absolute;
+            left:50%;
+            top:330px;            
+        }
+        .text1{
+            font-size:small;
+            /* font-weight:bold; */
+            /* word-wrap: break-word;
+            white-space: pre-wrap;
+            overflow-x: auto; */
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align:left;
+        }
+
+        .slidecontainer {               /* for the Skills progress bar*/
+            width: 100%;
+        }  
+
+        /* Backround colour and circle for the fontawesome icons */
+        .circle-icon {
+            background: orange;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            vertical-align: middle;
+            padding: 3px;
+        } 
+
+        .circle-icon-edu {
+            background: orange;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            vertical-align:middle;
+            padding: 3px;
+        }    
+      
+
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+        <section class="header">
+            <div class="head1">
+                <div style="background-color:gray; height:200px; width:900px; margin-bottom:0px"></div>
+                <div style="background-color:lightgray; height:30px; width:900px; margin-top:0px; margin-bottom:0px;"></div>
+                <div style="background-color:gray; height:30px; width:900px; margin-top:0px;"></div>
+                <img class="parimg" src="OIP.jpg" style="position:absolute; top:30px; left:370px; border-radius:50%;  width:160px;  border : 7px dotted orange; object-fit: cover; "/>
+                <div class="name">BRIAN DUDEY</div>
+                <h6 style="width:900px; text-align:center; margin-top:10px; font-size:medium;font-weight:900;">N. Damen Avenue, Chicago 99999 | 999-999-9999 | hello@kickresume.com | www.kickresume.com</h6>
+                <hr style="width:900px">
+            </div>    
+        </section>
+
+        <section class="content">
+            <div class="verti-line"></div>
+            <div class="left-table">
+                <table style="width:100%; margin-top:20px;">
+                    <div class="profile">
+                        <tr>
+                            <td >
+                                <!-- <img class="icons" src="download.png" style="display:inline; position: absolute; left:50px; border-radius:50%; width:40px; background:orange; object-fit:cover; "/> -->
+                                <i class="fa fa-user fa fa-2x circle-icon" aria-hidden="true" style="display:inline; position: absolute; left:55px; top:320px;  border : 2px dotted black; object-fit:cover; "></i>
+                                <h2 style="display:inline; position: absolute; top:325px; left:110px; font-size:x-large; font-weight:500; font-family:Verdana, Geneva, Tahoma, sans-serif">Profile</h2>
+                            </td>                  
+                        </tr>
+                    
+                        <tr>
+                            <div class="text1" style="position: absolute; left:50px; top:375px;"> 
+                                <p>Innovative optimized solution seeker. Excited to be</p>
+                                <p>at the deployment phase of my new career as a </p>
+                                <p>web developer. I am ambitious, adventurous,</p>
+                                <p>assiduous, animated, and an alliteration advocate.</p>
+                            </div>
+                        </tr>
+                    </div>  
+                
+                    <div class="skills">
+                        <tr>
+                            <td >
+                                <!-- <img class="icons" src="skills.png" style="display:inline; position: absolute; left:50px; top:475px; border-radius:50%; width:40px; background:orange; object-fit:cover; "/> -->
+                                <i class="fa fa-flask fa fa-2x circle-icon" aria-hidden="true" style="display:inline; position: absolute; left:55px; top:470px;  border : 2px dotted black; object-fit:cover; "></i>
+                                <h2 style="display:inline; position: absolute; top:475px; left:110px; font-size:x-large; font-weight:500; font-family:Verdana, Geneva, Tahoma, sans-serif">Skills</h2>
+                            </td>                  
+                        </tr> 
+                        <tr>
+                            <p class="text1" style="position: absolute; left:150px; top:525px; font-weight:bold;">Technical Skills</p>
+                        </tr>   
+
+                        <div >
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:560px;">JavaScript</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="90" style="display:inline; position: absolute; left:220px; top:560px; width:150px;" >
+                               
+                            </tr>
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:580px;">CSS</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="70" style="display:inline; position: absolute; left:220px; top:580px; width:150px;" >
+                               
+                            </tr>
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:600px;">HTML</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="80" style="display:inline; position: absolute; left:220px; top:600px; width:150px;" >
+                               
+                            </tr>
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:620px;">React</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="75" style="display:inline; position: absolute; left:220px; top:620px; width:150px;" >
+                               
+                            </tr>
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:640px;">Redux</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="65" style="display:inline; position: absolute; left:220px; top:640px; width:150px;" >
+                               
+                            </tr>
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:660px;">Mongo</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="95" style="display:inline; position: absolute; left:220px; top:660px; width:150px;" >
+                               
+                            </tr>
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:680px;">Deployment</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="80" style="display:inline; position: absolute; left:220px; top:680px; width:150px;" >
+                               
+                            </tr>
+                        </div>
+
+                        <tr>
+                            <p class="text1" style="position: absolute; left:150px; top:720px; font-weight:bold;">Additional Skills</p>
+                        </tr>   
+
+                        <div >
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:755px;">Product Management</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="90" style="display:inline; position: absolute; left:220px; top:755px; width:150px;" >
+                               
+                            </tr>
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:775px;">Recruitment</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="70" style="display:inline; position: absolute; left:220px; top:775px; width:150px;" >
+                               
+                            </tr>
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:795px;">Business Development</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="70" style="display:inline; position: absolute; left:220px; top:795px; width:150px;" >
+                               
+                            </tr>
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:815px;">Editing</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="60" style="display:inline; position: absolute; left:220px; top:815px; width:150px;" >
+                               
+                            </tr>
+                            <tr>
+                                <td class="text1" style="display:inline; position: absolute; left:50px; top:835px;">Fundraising</td>
+                                <!-- <td style="display:inline; position: absolute; left:200px; top:550px;">J</td> -->
+                                <input class="slidecontainer" type="range" min="1" max="100" value="70" style="display:inline; position: absolute; left:220px; top:835px; width:150px;" >
+                               
+                            </tr>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <tr>
+                            <td >
+                                <!-- <img class="icons" src="work.png" style="display:inline; position: absolute; left:50px; top:880px; border-radius:50%; width:40px; background:orange; object-fit:cover; "/> -->
+                                <i class="fa fa-briefcase fa fa-2x circle-icon" aria-hidden="true" style="display:inline; position: absolute; left:55px; top:875px;  border : 2px dotted black; object-fit:cover; "></i>
+                                <h2 style="display:inline; position: absolute; top:880px; left:110px; font-size:x-large; font-weight:500; font-family:Verdana, Geneva, Tahoma, sans-serif">Work Experience</h2>
+                            </td>                  
+                        </tr>
+
+                        <tr>
+                            <p class="text1" style="display:inline; position: absolute; left:50px; top:930px; font-weight:bold;">Event Manager</p>
+                            <p class="text1" style="display:inline; position: absolute; left:250px; top:930px;">03/2014 - 02/2017</p>
+                            <p class="text1" style="display:inline; position: absolute; left:50px; top:950px;">C3 Presents, Washington DC</p>
+                        </tr> 
+                        <tr>
+                            <ul class="text1">
+                                <li style="position: absolute; left:70px; top:980px;">
+                                    <p>Lead and execute all phases of event planning </p>
+                                    <p>and production spanning committee </p>
+                                    <p>recruitment, training, vendor relationships and </p>
+                                    <p>on-site facilitation.</p>
+                                </li> 
+                                 
+                                <li style="position: absolute; left:70px; top:1060px;">
+                                    <p>Brought new business to the organization </p>
+                                    <p>through relentless networking and stewardship </p>
+                                    <p>which helped the company win the bid for the </p>
+                                    <p>State Department Summit on the Middle East</p>
+                                    <p>and, the companies largest civic event to date, </p>
+                                    <p>the United State of Women</p>
+                                </li>
+
+                                <li style="position: absolute; left:70px; top:1180px;">
+                                    <p>Exercise fiscal control over budget creation, </p>
+                                    <p>tracking and reporting. Collaborate with </p>
+                                    <p>employees at all organizational levels to </p>
+                                    <p>advance cohesive operations.</p>
+                                </li>
+                                
+                            </ul>
+                        </tr>
+                    </div>    
+                </table>
+            </div>                
+            <!--Right Table Starts-->  
+            <div class="left-right">
+                <table style="width:100%; margin-top:20px;">
+                    <div class="work">
+                        <tr>
+                            <td >
+                                <!-- <img class="icons" src="work.png" style="display:inline; position: absolute; left:500px; top:325px; border-radius:50%; width:40px; background:orange; object-fit:cover; "/> -->
+                                <i class="fa fa-briefcase fa fa-2x circle-icon" aria-hidden="true" style="display:inline; position: absolute; left:500px; top:320px;  border : 2px dotted black; object-fit:cover; "></i>
+                                <h2 style="display:inline; position: absolute; top:325px; left:560px; font-size:x-large; font-weight:500; font-family:Verdana, Geneva, Tahoma, sans-serif">Work Experience</h2>
+                            </td>                  
+                        </tr>
+
+                        <tr>
+                            <p class="text1" style="display:inline; position: absolute; left:500px; top:375px; font-weight:bold;">Community Relations</p>
+                            <p class="text1" style="display:inline; position: absolute; left:500px; top:390px; font-weight:bold;">Manager</p>
+                            <p class="text1" style="display:inline; position: absolute; left:750px; top:375px;">06/2011 - 01/2014</p>
+                            <p class="text1" style="display:inline; position: absolute; left:500px; top:410px;">Gay & Lesbian Elder Housing, Los Angeles</p>
+                        </tr> 
+                        <tr>
+                            <ul class="text1">
+                                <li style="position: absolute; left:520px; top:440px;">
+                                    <p>Arranging presentations and pitch deck. </p>
+                                </li>
+
+                                <li style="position: absolute; left:520px; top:465px;">
+                                    <p>Designing a PR plan and establishing</p>
+                                    <p>important focus points. </p>
+                                </li>
+
+                                <li style="position: absolute; left:520px; top:505px;">
+                                    <p>Designing, creating and managing content</p>
+                                    <p>across multiple communication platforms.</p>
+                                </li>
+
+                                <li style="position: absolute; left:520px; top:545px;">
+                                    <p>Building relationships with key media players.</p>
+                                </li>
+                            </ul> 
+                        </tr>
+                    </div>    
+
+                    <div class="education">
+                        <tr>
+                            <td >
+                                <!-- <img class="icons" src="education.png" style="display:inline; position: absolute; left:500px; top:590px; border-radius:50%; width:40px; background:orange; object-fit:cover; "/> -->
+                                <i class="fa fa-graduation-cap fa fa-2x circle-icon-edu" aria-hidden="true" style="display:inline; position: absolute; left:500px; top:585px;  border : 2px dotted black; object-fit:cover; "></i>
+                                <h2 style="display:inline; position: absolute; top:590px; left:560px; font-size:x-large; font-weight:500; font-family:Verdana, Geneva, Tahoma, sans-serif">Education</h2>
+                            </td>                  
+                        </tr>
+
+                        <tr>
+                            <p class="text1" style="display:inline; position: absolute; left:500px; top:650px; font-weight:bold;">Engineering Immersion</p>
+                            <p class="text1" style="display:inline; position: absolute; left:500px; top:670px; font-weight:bold;">Program</p>
+                            <p class="text1" style="display:inline; position: absolute; left:750px; top:660px;">11/2018 - 06/2018</p>
+                            <p class="text1" style="display:inline; position: absolute; left:500px; top:690px;">Thinkful, Chicago, IL</p>
+                        </tr> 
+
+                        
+                        <tr>
+                            <p class="text1" style="display:inline; position: absolute; left:500px; top:730px;px; ">Project-focused intensive program with emphasis</p> 
+                            <p class="text1" style="display:inline; position: absolute; left:500px; top:750px; ">on Mongo, Express, React, and JavaScript (MERN)</p>
+                            <p class="text1" style="display:inline; position: absolute; left:500px; top:770px; "> technical stack.</p>
+                        </tr>
+
+                        <tr>
+                            <ul class="text1">
+                                <li style="position: absolute; left:520px; top:800px;">
+                                    <p>Developed a full-stack web application,</p> 
+                                    <p>"RenewU", using React that allows users to </p>
+                                    <p>explore various aspects of meditation. User's </p>
+                                    <p>progress is stored on a backend created using </p>
+                                    <p>Node and MongoDB.</p>
+                                </li>
+
+                                <li style="position: absolute; left:520px; top:900px;">
+                                    <p>Developed a language learning app, "Foodie</p> 
+                                    <p>Phonetics" using spaced repetition and a linked </p>
+                                    <p>list data structure. React was used to create </p>
+                                    <p>the front end components while Node and </p>
+                                    <p>Mongo were used to create a backend that</p> 
+                                    <p>stores user data. </p>
+                                </li>
+
+                                <li style="position: absolute; left:520px; top:1020px;">
+                                    <p>Developed a concierge app, "Pley", for </p>
+                                    <p> individuals looking for curated suggestions </p>
+                                    <p> when visiting a new place. React was used to </p>
+                                    <p> develop the front end which includes real-time </p>
+                                    <p> chat, drag and drop and variety of advanced </p>
+                                    <p> features. The backend, built using Node, </p>
+                                    <p> Express, and Mongo, takes advantage of well-</p>
+                                    <p> developed RESTful API, Geospatial searching, </p>
+                                    <p> and user authentication with JWT.</p>
+                                </li>
+                            </ul> 
+                        </tr>
+
+                        <tr>
+                            <p class="text1" style="display:inline; position: absolute; left:500px; top:1220px; font-weight:bold;">BA, English</p>
+                            <p class="text1" style="display:inline; position: absolute; left:750px; top:1220px;">09/2001 - 09/2005</p>
+                            <p class="text1" style="display:inline; position: absolute; left:500px; top:1240px;">University of California, Los Angles</p>
+                        </tr>
+                    </div>    
+                        
+
+
+
+                </table>
+            </div>        
+
+
+
+        </section>
+        
+
+    </div>
+    
+</body>
+</html>
